@@ -1,23 +1,23 @@
-const logotext = "Kaushik";
+const logotext = "JIT";
 const meta = {
-    title: "Kaushik Chandrasekhar",
-    description: "I’m Kaushik Chandrasekhar Full stack devloper,currently Studying in Edinburgh Napier University",
+    title: "JIT Accountants",
+    description: "JIT accountants are financial professionals specializing in managing financial processes in line with the Just-in-Time inventory system, ensuring efficient and cost-effective operations.",
 };
 
 const introdata = {
-    title: "I’m Kaushik Chandrasekhar",
+    title: "Welcome to JIT Accountants",
     animated: {
-        first: "Software Developer",
-        second: "Web Developer",
-        third: "MERN Stack",
+        first: "TAX Help",
+        second: "Legals",
+        third: "Money management",
     },
-    description: "As an MSc Computing student at Edinburgh Napier, I specialize in MERN stack, passionate about Full Stack development. Check out my portfolio!",
+    description: "JIT accountants are financial professionals specializing in managing financial processes in line with the Just-in-Time inventory system, ensuring efficient and cost-effective operations.",
     // your_img_url: "",
 };
 
 const dataabout = {
-    title: "abit about my self",
-    aboutme: "I'm an MSc Computing student at Edinburgh Napier, dedicated to mastering the MERN stack and exploring the realms of Full Stack development",
+    title: "abit about us",
+    aboutme: "JIT accountants are financial professionals specializing in managing financial processes in line with the Just-in-Time inventory system, ensuring efficient and cost-effective operations.",
 };
 const worktimeline = [{
         jobtitle: "Designer of week",
@@ -87,8 +87,8 @@ const dataportfolio = [
 ];
 
 const contactConfig = {
-    YOUR_EMAIL: "kaushik315@gmail.com",
-    YOUR_FONE: "+44 7776596367",
+    YOUR_EMAIL: "jitaccountants@gmail.com",
+    YOUR_FONE: "+44 123546897",
     description: "Feel free to reach out for collaborations, inquiries, or just a friendly chat. I'm eager to connect and explore opportunities together ",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
