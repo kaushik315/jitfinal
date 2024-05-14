@@ -12,7 +12,7 @@ const introdata = {
         third: "Money management",
     },
     description: "JIT accountants are financial professionals specializing in managing financial processes in line with the Just-in-Time inventory system, ensuring efficient and cost-effective operations.",
-    // your_img_url: "",
+    your_img_url: "https://i.imgur.com/z4RdFuB.jpeg",
 };
 
 const dataabout = {
