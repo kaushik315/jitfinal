@@ -108,6 +108,14 @@ export const ContactUs = () => {
               ) : (
                 ""
               )}
+              <br />
+              {contactConfig.hasOwnProperty("ADDRESS") ? (
+                <p>
+                  <strong>Address:</strong> {contactConfig.ADDRESS}
+                </p>
+              ) : (
+                ""
+              )}
             </address>
             <p>{contactConfig.description}</p>
           </Col>

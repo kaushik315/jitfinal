@@ -2,7 +2,7 @@ import React from "react";
 import "./style.css";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { Container, Row, Col } from "react-bootstrap";
-import { dataportfolio, meta } from "../../content_option";
+import { dataportfolio, meta, services } from "../../content_option";
 
 export const Services = () => {
   return (
@@ -19,19 +19,21 @@ export const Services = () => {
             <hr className="t_border my-4 ml-0 text-left" />
           </Col>
         </Row>
-        <div className="mb-5 po_items_ho">
-          {dataportfolio.map((data, i) => {
-            return (
-              <div key={i} className="po_item">
-                <img src={data.img} alt="" />
-                <div className="content">
-                  <p>{data.description}</p>
-                  <a href={data.link}>view service</a>
+        <Row className="sec_sp">
+          <Col lang="5">
+            <h3 className="color_sec py-4">services</h3>
+          </Col>
+          <Col lg="7">
+            {services.map((data, i) => {
+              return (
+                <div className="service_ py-4" key={i}>
+                  <h5 className="service__title">{data.title}</h5>
+                  <p className="service_desc">{data.description}</p>
                 </div>
-              </div>
-            );
-          })}
-        </div>
+              );
+            })}
+          </Col>
+        </Row>
       </Container>
     </HelmetProvider>
   );
