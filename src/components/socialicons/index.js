@@ -21,13 +21,13 @@ export const Socialicons = (params) => {
             </a>
           </li>
         )}
-        {socialprofils.github && (
+        {/* {socialprofils.github && (
           <li>
             <a href={socialprofils.github}>
               <FaGithub />
             </a>
           </li>
-        )}
+        )} */}
         {socialprofils.facebook && (
           <li>
             <a href={socialprofils.facebook}>
@@ -57,7 +57,7 @@ export const Socialicons = (params) => {
           </li>
         )}
       </ul>
-      <p>Follow Me</p>
+      <p>Follow us</p>
     </div>
   );
 };
