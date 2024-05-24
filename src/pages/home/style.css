@@ -30,18 +30,22 @@ section {
     text-decoration: none;
 }
 
-/* .intro_sec {
+.intro_sec {
     height: calc(100vh - 60px); 
     min-height: 700px;
     height: 100vh;
     margin-top: 20px;
     
-} */
+}
 .intro_sec .text {
   display: flex;
+  color: rgb(130, 92, 233);
+  font-weight: bold;
   justify-content: center;
   align-items: center;
   margin-top: auto;
+  position: relative;
+  z-index: 1;
   /* height: 100vh; */
 }
 
@@ -52,17 +56,17 @@ section {
     }
 }
 
-/* .intro_sec .text,
+.intro_sec .text,
 .intro_sec .h_bg-image {
     width: 100%;
-} */
+}
 
-/* @media (max-width:991.98px) {
+@media (max-width:991.98px) {
     .intro_sec .text,
     .intro_sec .h_bg-image {
         width: 100%;
     }
-} */
+}
 
 .intro_sec .intro {
     max-width: 80%;
@@ -103,7 +107,7 @@ section {
     background-size: cover;
     background-position: center;
     min-height: 700px;
-    position: relative;
+    position: absolute;
 }
 
 .ac_btn {
@@ -175,11 +179,16 @@ section {
 
 #button_p {
     background: var(--secondary-color);
-    color: var(--primary-color);
+    color: rgb(130, 92, 233);
+}
+
+#button_h {
+    background: var(--secondary-color);
+    color: rgb(130, 92, 233);
 }
 
 #button_h:hover {
-    color: var(--primary-color)
+    color: rgb(130, 92, 233)
 }
 
 .intro_sec .h_bg-image .block {

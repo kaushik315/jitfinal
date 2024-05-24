@@ -13,6 +13,7 @@ const introdata = {
     },
     description: "JiT Accountants is an independent firm of chartered accountants who is dedicated to helping you and your company achieve the highest level of profitability. The ability to provide trusted and better options to our clients is the foundation of our success. Our clientele spans the whole of England and includes both big corporations and Small and Medium Scale Enterprises. We are dedicated to offering top-notch service that is customised to meet each client's unique demands. Our clientele is growing primarily because of recommendations from previous customers. We offer a wide range of services that are customised to meet your needs, regardless of whether you are a startup, an established firm, a freelancer, contractor, consultant, landlord, a sole proprietor, partnership or corporate. We recognise how essential your time is, therefore let us handle the complicated tax related matters and accounting.  You can be certain that JiT accountants will provide you with wise counsel that will protect the sustainability of your business.",
     your_img_url: "https://i.imgur.com/z4RdFuB.jpeg",
+    bg_img_url: "https://imgur.com/Gi9RfuS.jpeg",
 };
 
 const dataabout = {
